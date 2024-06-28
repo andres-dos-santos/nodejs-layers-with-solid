@@ -1,0 +1,16 @@
+{
+  "name": "node-clean-architeture",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch ./src/main.ts"
+  },
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^2.2.2",
+    "@types/bun": "latest",
+    "tsx": "^4.15.8"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
