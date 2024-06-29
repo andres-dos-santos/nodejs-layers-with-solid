@@ -1,11 +1,10 @@
 import type { Request, Response } from 'express'
 
-import { HttpMethod, type Route } from './route'
-
 import type {
   CreateProductInputDTO,
   CreateProductUseCase,
-} from '../../../../use-case/product/create/create-product.use-case'
+} from '../../../../../use-case/product/create/create-product.use-case.ts'
+import { HttpMethod, type Route } from '../route.ts'
 
 export type CreateProductResponseDTO = {
   id: string

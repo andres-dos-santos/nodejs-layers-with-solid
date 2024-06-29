@@ -1,7 +1,7 @@
 import type { PrismaClient } from '@prisma/client'
 
-import { Product } from '../../../../domain/product/entity/product.entity'
-import type { ProductGateway } from '../../../../domain/product/gateway/product.gateway'
+import { Product } from '../../../../domain/product/entity/product.entity.ts'
+import type { ProductGateway } from '../../../../domain/product/gateway/product.gateway.ts'
 
 export class ProductRepositoryPrisma implements ProductGateway {
   private constructor(private readonly prismaClient: PrismaClient) {}
