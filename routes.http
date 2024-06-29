@@ -1,0 +1,11 @@
+GET http://localhost:8000/products
+
+###
+
+POST http://localhost:8000/products
+Content-Type: application/json
+
+{
+  "price": 350,
+  "name": "Óculos de ficar em casa"
+}

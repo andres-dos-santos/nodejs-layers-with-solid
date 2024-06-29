@@ -1,3 +1,5 @@
+import crypto from 'node:crypto'
+
 export type ProductProps = {
   id: string
   name: string
